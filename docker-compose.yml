@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  auth:
+    image: lukelee91/auth
+    ports:
+      - '5100:5000'
